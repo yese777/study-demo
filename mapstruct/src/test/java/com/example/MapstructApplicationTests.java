@@ -1,9 +1,9 @@
-package com.yese;
+package com.example;
 
 
-import com.yese.dto.UserDTO;
-import com.yese.entity.User;
-import com.yese.mapstruct.UserConvert;
+import com.example.dto.UserDTO;
+import com.example.entity.User;
+import com.example.mapstruct.UserConvert;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

@@ -1,7 +1,7 @@
-package com.yese.mapstruct;
+package com.example.mapstruct;
 
-import com.yese.dto.UserDTO;
-import com.yese.entity.User;
+import com.example.dto.UserDTO;
+import com.example.entity.User;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
@@ -18,7 +18,7 @@ import java.util.List;
  * @Mapping：属性映射，若源对象属性与目标对象名字一致，会自动映射对应属性
  *     source：源属性
  *     target：目标属性
- *     dateFormat：String 到 Date 日期之间相互转换，通过 SimpleDateFormat，该值为 SimpleDateFormat              的日期格式
+ *     dateFormat：String 到 Date 日期之间相互转换，通过 SimpleDateFormat，该值为 SimpleDateFormat 的日期格式
  *     ignore: 忽略这个字段
  * @Mappings：配置多个@Mapping
  * @MappingTarget 用于更新已有对象

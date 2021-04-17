@@ -1,4 +1,4 @@
-package com.yese.entity;
+package com.example.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,11 +10,10 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class User {
+public class UserDTO {
 
     private Integer id;
-    // dto 中为 name
-    private String username;
+    private String name;
     private String password;
 
 }
