@@ -1,7 +1,7 @@
-package com.yese.controller;
+package com.example.controller;
 
-import com.yese.pojo.User;
-import com.yese.validate.Update;
+import com.example.pojo.User;
+import com.example.validate.Update;
 import lombok.extern.slf4j.Slf4j;
 import org.hibernate.validator.constraints.Length;
 import org.springframework.validation.annotation.Validated;

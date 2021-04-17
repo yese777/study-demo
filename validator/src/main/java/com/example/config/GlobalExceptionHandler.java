@@ -1,4 +1,4 @@
-package com.yese.config;
+package com.example.config;
 
 
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -20,12 +20,6 @@ public class GlobalExceptionHandler {
      */
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public Map<String, Object> handleMethodArgumentNotValidException(MethodArgumentNotValidException e) {
-        // 获取所有的错误
-        // List<FieldError> fieldErrors = e.getBindingResult().getFieldErrors();
-        // 获取错误提示
-        // System.out.println(fieldErrors.get(0).getDefaultMessage());
-        // 获取错误字段
-        // System.out.println(fieldErrors.get(0).getField());
 
         // 将所有的错误提示使用";"拼接起来并返回
         StringJoiner sj = new StringJoiner(";");

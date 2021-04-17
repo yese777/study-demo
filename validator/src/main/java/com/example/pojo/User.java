@@ -1,8 +1,8 @@
-package com.yese.pojo;
+package com.example.pojo;
 
-import com.yese.validate.Insert;
-import com.yese.validate.Update;
-import com.yese.validate.Username;
+import com.example.validate.Insert;
+import com.example.validate.Update;
+import com.example.validate.Username;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
