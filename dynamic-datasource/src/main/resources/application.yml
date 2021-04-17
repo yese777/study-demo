@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    dynamic:
+      # 设置默认的数据源或者数据源组
+      primary: mysql1
+      # 设置严格模式,默认false不启动. 启动后在未匹配到指定数据源时候会抛出异常,不启动则使用默认数据源.
+      strict: false
+      datasource:
+        # 数据库1
+        mysql1:
+          # 3.2.0开始支持SPI可省略此配置
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://127.0.0.1:3306/mysql1?useUnicode=true&useSSL=false&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+          username: root
+          password: 123456
+
+        # 数据库2
+        mysql2:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://127.0.0.1:3306/mysql2?useUnicode=true&useSSL=false&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+          username: root
+          password: 123456
