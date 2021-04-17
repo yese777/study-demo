@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @RetrofitScan("com.example")
-public class Demo456Application {
+public class RetrofitApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Demo456Application.class, args);
+        SpringApplication.run(RetrofitApplication.class, args);
     }
 
 }
